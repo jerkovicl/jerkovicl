@@ -25,7 +25,7 @@ jobs:
           plugin_music_mode: playlist
           plugin_music_playlist: https://open.spotify.com/embed/playlist/5R3KsM1jugWLRJd9Y0yULq
           plugin_music_limit: 4
-          plugin_music_token: ${{ secrets.SPOTIFY_CLIENT_ID }}, ${{ secrets.SPOTIFY_CLIENT_SECRET }}, ${{ secrets.SPOTIFY_TOKEN }}
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_lines: yes
           plugin_traffic: yes
           plugin_habits: yes
