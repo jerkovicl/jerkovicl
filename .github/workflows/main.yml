@@ -16,7 +16,8 @@ jobs:
       contents: write
     steps:
       # See action.yml for all options
-      - uses: jerkovicl/metrics@master
+      #- uses: jerkovicl/metrics@master
+      - uses: lowlighter/metrics@master
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
