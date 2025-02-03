@@ -10,6 +10,10 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
     steps:
       # See action.yml for all options
       - uses: jerkovicl/metrics@master
